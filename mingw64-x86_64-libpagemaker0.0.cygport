@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
 NAME="mingw64-x86_64-libpagemaker0.0"
-VERSION=0.0.2
+VERSION=0.0.3
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Adobe PageMaker import filter library for Win64 toolchain"
@@ -11,7 +11,6 @@ Adobe PageMaker content into various applications."
 HOMEPAGE="http://www.freedesktop.org/wiki/Software/libpagemaker"
 SRC_URI="http://dev-www.libreoffice.org/src/libpagemaker/libpagemaker-${VERSION}.tar.xz"
 SRC_DIR="libpagemaker-${VERSION}"
-PATCH_URI="0.0.2-ldflags.patch"
 
 CYGCONF_ARGS="--without-docs"
 
